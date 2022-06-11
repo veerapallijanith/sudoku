@@ -7,9 +7,8 @@ To develop a code to solve a sudoku puzzle using contraint propagation
 Sudoku consists of a 9x9 grid, and the objective is to fill the grid with digits in such a way that each row, each column, and each of the 9 principal 3x3 subsquares contains all of the digits from 1 to 9.
 
 ## Sudoku puzzle:
+![ss](https://user-images.githubusercontent.com/75234814/173179494-d1e67d07-e098-4ea8-961f-d81fbee41613.png)
 
-
-![s1](https://user-images.githubusercontent.com/75234814/173179210-cb87853f-36bb-46cc-bf93-73200b219ee4.png)
 
 
 ## Design Steps:
@@ -33,7 +32,7 @@ import matplotlib.pyplot as plt
 import random
 import math
 import sys
-puzzle='.43..78..1.......4.68..........31.86..92.51..48.79..........65.2.......8..58..21.'
+puzzle='15.7...9.3..91..6......4.1..8.5....6.9.8.7.4.6....2.7..3.4......6..79..2.4...3.89'
 rows = 'ABCDEFGHI'
 cols = '123456789'
 
@@ -123,7 +122,7 @@ display(result)
 
 ## Output:
 
-![s1O](https://user-images.githubusercontent.com/75234814/173179204-27e55325-015c-457c-ba33-e670be09ee3d.png)
+![ss1](https://user-images.githubusercontent.com/75234814/173179485-5c2f5fec-9f91-4712-862f-ccbde2f7d07a.png)
 
 
 ## Result:
